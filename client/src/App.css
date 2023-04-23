@@ -1,0 +1,51 @@
+/* Define a variable */
+:root {
+  --bg-image: url('./Images/Undertone.png');
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+input[type="text"] {
+  background-color: #FFF;
+  font-weight: bold;
+  border: 1px solid #DE69C1;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 0.2rem;
+}
+
+input[type="text"]:hover {
+  background-color: #FFF;
+}
+input[type="text"]:focus-visible {
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #DE69C1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #C557A5;
+}
